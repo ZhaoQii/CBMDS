@@ -2,6 +2,7 @@
 # DeSarbo, Wayne S., Rajdeep Grewal, and Crystal J. Scott. "A clusterwise bilinear multidimensional scaling methodology for simultaneous segmentation and positioning analyses." Journal of Marketing Research 45, no. 3 (2008): 280-292.
 
 # Main function to run the proposed method for simultaneous customer segmentation and product positioning analysis
+# Notes: does not support reparameterization module, which means it requires S >= T as noted in the original paper
 
 def CBMDS_JMR2008(Delta, S, T):
     # N: the number of all respondents
